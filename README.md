@@ -33,6 +33,8 @@
 
 ## Schnittstellen
 
+Erstellen Sie einen Ordner `Contracts` und fügen Sie die folgenden Schnittstellen hinzu.
+
 ### `IIdentifiable`
 
 ```csharp
@@ -132,7 +134,11 @@ namespace ContactManager.Common.Contracts
 
 ## Modules
 
+Erstellen Sie einen Ordner `Modules` und fügen Sie die folgenden Module hinzu.
+
 ### Configuration
+
+Erstellen Sie einen Ordner `Configuration` und fügen Sie die folgende Klasse hinzu.
 
 #### `AppSettings`
 
@@ -188,3 +194,5 @@ namespace ContactManager.Common.Modules.Configuration
     }
 }
 ```
+
+**Viel Spaß!**
