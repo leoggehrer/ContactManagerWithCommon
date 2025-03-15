@@ -2,16 +2,16 @@
 
 **Inhalt:**
 
-- Packages
+- Packages installieren
 - Schnittstellen
-  - `IIdentifiable`
-  - `IContact`
-  - `ISettings`
+  - Schnittstelle `IIdentifiable`
+  - Schnittstelle `IContact`
+  - Schnittstelle `ISettings`
 - Modules
   - Configuration
-    - `AppSettings`
+    - Klasse `AppSettings`
 
-## Packages
+## Packages installieren
 
 ```csharp
 <Project Sdk="Microsoft.NET.Sdk">
@@ -35,7 +35,7 @@
 
 Erstellen Sie einen Ordner `Contracts` und fügen Sie die folgenden Schnittstellen hinzu.
 
-### `IIdentifiable`
+### Schnittstelle `IIdentifiable`
 
 ```csharp
 namespace ContactManager.Common.Contracts
@@ -55,7 +55,7 @@ namespace ContactManager.Common.Contracts
 }
 ```
 
-### `IContact`
+### Schnittstelle `IContact`
 
 ```csharp
 namespace ContactManager.Common.Contracts
@@ -120,7 +120,7 @@ namespace ContactManager.Common.Contracts
 }
 ```
 
-### `ISettings`
+### Schnittstelle `ISettings`
 
 ```csharp
 namespace ContactManager.Common.Contracts
@@ -140,7 +140,7 @@ Erstellen Sie einen Ordner `Modules` und fügen Sie die folgenden Module hinzu.
 
 Erstellen Sie einen Ordner `Configuration` und fügen Sie die folgende Klasse hinzu.
 
-#### `AppSettings`
+#### Klasse `AppSettings`
 
 ```csharp
 using Microsoft.Extensions.Configuration;
